@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
+  "gypfile": true,
   "main": "src/start.js",
   "build": {
     "appId": "Reward Panel",
@@ -23,7 +24,10 @@
     "electron-is-dev": "^1.1.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-overflow-scrolling": "^1.0.1",
+    "react-remove-scroll-bar": "^2.0.0",
+    "react-scripts": "3.2.0",
+    "node-addon-api": "^0.6.3"
   },
   "scripts": {
     "electron": "electron .",
